@@ -99,6 +99,9 @@ function LinkedList() {
 	};
 }
 
+// map.js 依赖
+module.exports = LinkedList;
+
 // 双向链表
 function DoublyLinkedList() {
 	var head = null,
